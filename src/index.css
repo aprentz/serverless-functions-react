@@ -198,9 +198,12 @@ Products
    margin: 0 auto;
    text-align: center;
    width: 90%;
-   /* border-bottom: 2px solid var(--clr-primary-7); */
    margin-top: 1rem;
    margin-bottom: 1rem;
+}
+
+.product h5 {
+   font-size: 18px;
 }
 
 .product img {
@@ -215,6 +218,10 @@ Products
 
 .coloured-text {
    color:var(--clr-primary-5)
+}
+
+.small-text {
+   font-size: 14px;
 }
 
 @media screen and (min-width: 776px) {

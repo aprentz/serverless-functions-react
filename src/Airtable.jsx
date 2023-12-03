@@ -30,7 +30,7 @@ const Airtable = () => {
                const { id, name, url, price } = product
                return (
                   <Link to={`/${id}`} className="product" key={id}>
-                     <h5 className='info'>{name}</h5>
+                     <h5 className='info'>{name} <span className="small-text">(click me)</span></h5>
                      <img src={url} alt={name} />
                      <h5 className='info coloured-text'>${price}</h5>
                   </Link>
